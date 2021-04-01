@@ -26,7 +26,7 @@ Group coursework for Applied Data Science at the University of Bristol.
 
 Natalie Thurlby, Data Science Specialist, Jean Golding Institute, natalie.thurlby@bristol.ac.uk.
 
-## Repository structure
+## Repository overview
 
 - Data in `/data`
   - Original dataset and dictionary in `/original`
@@ -34,3 +34,13 @@ Natalie Thurlby, Data Science Specialist, Jean Golding Institute, natalie.thurlb
 - Figures in `/figures`
 - Jupyter notebooks in `/notebooks`
 - Coursework specification available in `ads_cw_specification.pdf`
+
+### Requirements
+
+Requirements for notebooks included in `requirements.txt`.
+
+Use pip to install the requirements to your environment:
+
+```bash
+pip install -r requirements.txt
+```
