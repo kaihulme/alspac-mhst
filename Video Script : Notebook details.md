@@ -7,9 +7,13 @@
 - Explain how we distribute work.
 - Our literature and data imputation were separated by half-half of the whole group.
 
-## Initial Thinking / Work So Far ( KKF)
+## Initial Thinking / Work So Far (Kai / Kaihuang / Fu)
 
-Pre prosessing. imputation
+- At the beginning we imported the CSV file into a dataframe with proper datatype and considered about simple analysis with seaborn heatmap visualisation.
+- After that done, we realised that our main issue to be a high percentage of missing values. Therefore we did some analysis to this aspect, including ranking our missing rate.
+- Then, we've seperated the team and tried different ways to fill up our dataset, including basic mean, median, mode imputation, K-Nearest Neighbours, and random forest.
+
+----
 
 - Why we justification for it and our progress so far at the moment.
 
@@ -18,9 +22,9 @@ Pre prosessing. imputation
 ## Challenges
 
 - Our Challenges shall be distributed into the initial thinking / work so far section too.
-- In general, what cost most of our time is what are those missing values and how do we carefully impute the data without just roughly delete those features.
+- In general, what cost most of our time is to think about how to process those missing values and how do we carefully impute the data without just roughly delete those features. During our data imputation, there's almost 50% of missing values, which leads a large deviation of our dataset with too much noise. Different types of imputation were implemented and our bigest challenge is to find a best way to minimise this type of effect.
 
-## Things To Do (Elvis)
+## Things To Do
 
 - Video / Report
 
@@ -53,7 +57,7 @@ Pandas `corr` is able to handle most of the missing values, but we can see a few
 
 In these early notebooks, different kinds of imputation were practiced as individual playgrounds.
 
-## Missing Value Analysis & Handling (NOT FINISHED YET - MAIN STUFF HERE)
+## Missing Value Analysis & Handling (MAIN STUFF HERE)
 
 In this notebook, we analysed all our missing values, counted the percentage of each one and explored some methods for missing value imputation.
 
